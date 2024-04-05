@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { useState } from "react";
 import { Header } from "./component/Header.jsx";
 import { Footer } from "./component/Footer.jsx";
@@ -11,23 +12,23 @@ import Porto1 from "./assets/images/Portofolio/Porto1.png";
 import Porto2 from "./assets/images/Portofolio/Porto2.png";
 import Todolist from "./assets/images/Portofolio/Todolist.png";
 function App() {
-  const navSlide = () => {
-    const burger = document.querySelector(".burger");
-    const navLists = document.querySelector("nav");
+  // const navSlide = () => {
+  //   const burger = document.querySelector(".burger");
+  //   const navLists = document.querySelector("nav");
 
-    burger.addEventListener("click", () => {
-      navLists.classList.toggle("nav-active");
-      burger.classList.toggle("toggle-burger");
-    });
-  };
+  //   burger.addEventListener("click", () => {
+  //     navLists.classList.toggle("nav-active");
+  //     burger.classList.toggle("toggle-burger");
+  //   });
+  // };
 
-  navSlide();
+  // navSlide();
 
-  window.onbeforeunload = () => {
-    for (const form of document.getElementsByTagName("form")) {
-      form.reset();
-    }
-  };
+  // window.onbeforeunload = () => {
+  //   for (const form of document.getElementsByTagName("form")) {
+  //     form.reset();
+  //   }
+  // };
 
   return (
     <>
@@ -116,7 +117,11 @@ function App() {
               <div className="portofolio-info">
                 <div className="portofolio-tittle">
                   <h4>To Do List</h4>
-                  <a href="/" className="portofolio-link">
+                  <a
+                    href="https://to-do-list-azure-beta.vercel.app/"
+                    target="_blank"
+                    className="portofolio-link"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
