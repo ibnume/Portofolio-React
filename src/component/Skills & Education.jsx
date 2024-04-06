@@ -48,12 +48,7 @@ const Skills = () => {
             </div>
 
             <div className="skills-right">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corporis veniam et eos dolore saepe possimus excepturi nam,
-                minus consequuntur aliquam, temporibus iusto voluptas natus
-                cumque dolores beatae culpa voluptatum ipsa.
-              </p>
+              <p>Test</p>
 
               <div className="skills-list">
                 <ul>
