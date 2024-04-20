@@ -9,6 +9,10 @@
   border: 1px solid #f1f1f1;
 }
 
+.grid-3 {
+  gap: 1rem;
+}
+
 .portofolio-cover {
   height: 250px;
 }
