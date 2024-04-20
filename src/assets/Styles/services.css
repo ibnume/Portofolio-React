@@ -1,0 +1,38 @@
+/* Services Section */
+#services {
+  background-color: #fbfbfb;
+  padding: 4rem 0;
+}
+
+.services .pre-tittle {
+  margin: 0 auto;
+}
+
+.services-tittle {
+  text-align: center;
+}
+
+.service {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0.7rem;
+}
+
+.service h4 {
+  margin: 1.5rem 0;
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.service-icon {
+  background: #f5f3fe;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1rem 1.3rem;
+  border-radius: 0.5rem;
+}
+
+.service-icon svg {
+  fill: #7e74f1;
+}

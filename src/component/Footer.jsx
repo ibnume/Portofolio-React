@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 
-import "../assets/Styles/style.css";
+import "../assets/Styles/footer.css";
 import "../assets/Styles/responsive.css";
 
 const Footer = () => {

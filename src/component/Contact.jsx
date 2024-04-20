@@ -1,4 +1,7 @@
+/* eslint-disable no-unused-vars */
 import { React } from "react";
+
+import "../assets/Styles/contact.css";
 
 const Contact = () => {
   return (
