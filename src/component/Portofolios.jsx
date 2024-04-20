@@ -6,6 +6,7 @@ import "../assets/Styles/responsive.css";
 import Porto1 from "../assets/images/Portofolio/Porto1.png";
 import Porto2 from "../assets/images/Portofolio/Porto2.png";
 import Todolist from "../assets/images/Portofolio/Todolist.png";
+import compro from "../assets/images/Portofolio/compro.png";
 
 const Portofolios = () => {
   return (
@@ -111,6 +112,43 @@ const Portofolios = () => {
               <div className="portofolio-tags">
                 <div>React JS</div>
                 <div>Vite</div>
+                <div>JavaScript</div>
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus quasi quaerat enim eaque fugiat perferendis,
+                exercitationem quod sit delectus harum?
+              </p>
+            </div>
+          </div>
+
+          <div className="portofolio">
+            <div className="portofolio-cover">
+              <img src={compro} alt="company-profile" />
+            </div>
+
+            <div className="portofolio-info">
+              <div className="portofolio-tittle">
+                <h4>Company Profile</h4>
+                <a
+                  href="https://company-profile-fawn.vercel.app/"
+                  target="_blank"
+                  className="portofolio-link"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z" />
+                  </svg>
+                </a>
+              </div>
+
+              <div className="portofolio-tags">
+                <div>React JS</div>
                 <div>JavaScript</div>
               </div>
 
